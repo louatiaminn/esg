@@ -1,0 +1,24 @@
+{
+  "labels": [
+    "E",
+    "S",
+    "G",
+    "nonESG"
+  ],
+  "thresholds": [
+    0.32676767676767676,
+    0.21787878787878787,
+    0.31686868686868686,
+    0.06939393939393938
+  ],
+  "fold_models": [
+    "outputs/baseline\\model_fold1.joblib",
+    "outputs/baseline\\model_fold2.joblib",
+    "outputs/baseline\\model_fold3.joblib",
+    "outputs/baseline\\model_fold4.joblib",
+    "outputs/baseline\\model_fold5.joblib"
+  ],
+  "final_model": "outputs/baseline\\final_model.joblib",
+  "n_splits": 5,
+  "oof_macro_f1": 1.0
+}
